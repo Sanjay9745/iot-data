@@ -31,7 +31,7 @@ A scalable platform for collecting, processing, and analyzing IoT device data, w
 
 ## 🔧 Installation & Setup
 
-## Import to Mongodb (Optional)
+### Import to Mongodb (Optional)
  - In the import-db folder has the necessary dummy data for running the project else skip this step and go accroding with the API Documentation provided and use generate command given in setup to get dummy data.
  
 ### Using Docker Compose (Recommended)
