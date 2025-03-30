@@ -1,0 +1,48 @@
+{
+  "name": "iot-data",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "consumer-dev": "nodemon --exec ts-node src/consumer.ts",
+    "consumer-prod": "node dist/consumer.js",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "generate-data": "ts-node src/scripts/generate.iot.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "amqplib": "^0.10.5",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "events": "^3.3.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.13.0",
+    "morgan": "^1.10.0",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.7",
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/events": "^3.0.3",
+    "@types/express": "^5.0.1",
+    "@types/fs-extra": "^11.0.4",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/moment": "^2.13.0",
+    "@types/mongoose": "^5.11.96",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.13.13",
+    "@types/nodemon": "^1.19.6",
+    "fs-extra": "^11.2.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
