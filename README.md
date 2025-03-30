@@ -1,6 +1,9 @@
 ### IOT Data Management
 A scalable platform for collecting, processing, and analyzing IoT device data, with real-time monitoring and reporting capabilities.
 
+### API Documentation
+[Docs]([https://docs.google.com/document/d/1dKr4WGfaIf7KDJN_8NFg8v6I_MQ81qGk1HXRMT61FE4/edit?usp=sharing](https://docs.google.com/document/d/1dKr4WGfaIf7KDJN_8NFg8v6I_MQ81qGk1HXRMT61FE4/edit?usp=sharing))
+
 ## 🚀 Features
 
 - **Device Management**: Register and track IoT devices
